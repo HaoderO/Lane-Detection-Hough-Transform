@@ -1,0 +1,381 @@
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do sim.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.7 Lib Mapping Utility 2017.12 Dec  7 2017
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 22:14:00 on Apr 12,2024
+# vlog -reportprogress 300 ./../../rtl/delay_bit.v ./../../rtl/delay_xbit.v ./../../rtl/feature_ram.v ./../../rtl/top.v 
+# -- Compiling module delay_bit
+# -- Compiling module delay_xbit
+# -- Compiling module feature_ram
+# -- Compiling module top
+# 
+# Top level modules:
+# 	feature_ram
+# 	top
+# End time: 22:14:00 on Apr 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 22:14:00 on Apr 12,2024
+# vlog -reportprogress 300 ./../../rtl/sobel/RGB_Gray.v ./../../rtl/sobel/erode.v ./../../rtl/sobel/fifo_show_2048x8.v ./../../rtl/sobel/matrix_3x3_8bit.v ./../../rtl/sobel/sobel.v 
+# -- Compiling module RGB_Gray
+# -- Compiling module erode
+# -- Compiling module fifo_show_2048x8
+# -- Compiling module matrix_3x3_8bit
+# -- Compiling module sobel
+# 
+# Top level modules:
+# 	RGB_Gray
+# 	erode
+# 	sobel
+# End time: 22:14:00 on Apr 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 22:14:00 on Apr 12,2024
+# vlog -reportprogress 300 ./../../rtl/rho_cacl/cordic.v ./../../rtl/rho_cacl/read_ram.v ./../../rtl/rho_cacl/rho_cacl.v ./../../rtl/rho_cacl/rho_max.v ./../../rtl/rho_cacl/rho_para_l.v ./../../rtl/rho_cacl/rho_para_r.v 
+# -- Compiling module cordic
+# -- Compiling module read_ram
+# -- Compiling module rho_cacl
+# -- Compiling module rho_max
+# -- Compiling module rho_para_l
+# -- Compiling module rho_para_r
+# 
+# Top level modules:
+# 	read_ram
+# 	rho_para_l
+# 	rho_para_r
+# End time: 22:14:00 on Apr 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 22:14:00 on Apr 12,2024
+# vlog -reportprogress 300 ./../../rtl/feature_point/feature_point.v ./../../rtl/feature_point/feature_stor.v 
+# -- Compiling module feature_point
+# -- Compiling module feature_stor
+# 
+# Top level modules:
+# 	feature_point
+# 	feature_stor
+# End time: 22:14:00 on Apr 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 22:14:00 on Apr 12,2024
+# vlog -reportprogress 300 ./../altera_mf.v ./../cordic_tb.v ./../img_gen.v ./../rho_cacl_tb.v ./../top_tb.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# -- Compiling module cordic_tb
+# -- Compiling module img_gen
+# -- Compiling module rho_cacl_tb
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# 	cordic_tb
+# 	rho_cacl_tb
+# 	top_tb
+# End time: 22:14:01 on Apr 12,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.top_tb 
+# Start time: 22:14:01 on Apr 12,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.RGB_Gray(fast)
+# Loading work.sobel(fast)
+# Loading work.matrix_3x3_8bit(fast)
+# Loading work.fifo_show_2048x8(fast)
+# Loading work.scfifo(fast)
+# Loading work.ALTERA_DEVICE_FAMILIES(fast)
+# Loading work.erode(fast)
+# Loading work.feature_point(fast)
+# Loading work.delay_xbit(fast)
+# Loading work.delay_bit(fast)
+# Loading work.delay_xbit(fast__1)
+# Loading work.feature_stor(fast)
+# Loading work.feature_ram(fast)
+# Loading work.altsyncram(fast)
+# Loading work.ALTERA_DEVICE_FAMILIES(fast__1)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.read_ram(fast)
+# Loading work.rho_para_l(fast)
+# Loading work.rho_cacl(fast)
+# Loading work.delay_xbit(fast__2)
+# Loading work.delay_bit(fast__1)
+# Loading work.cordic(fast)
+# Loading work.rho_max(fast)
+# Loading work.rho_para_r(fast)
+# Loading work.img_gen(fast)
+# ** Warning: (vsim-3015) ./../../rtl/feature_point/feature_stor.v(104): [PCDPC] - Port size (32) does not match connection size (24) for port 'data'. The port definition is at: ./../../rtl/feature_ram.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_feature_stor/left File: ./../../rtl/feature_ram.v
+# ** Warning: (vsim-3015) ./../../rtl/feature_point/feature_stor.v(104): [PCDPC] - Port size (32) does not match connection size (24) for port 'q'. The port definition is at: ./../../rtl/feature_ram.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_feature_stor/left File: ./../../rtl/feature_ram.v
+# ** Warning: (vsim-3015) ./../../rtl/feature_point/feature_stor.v(116): [PCDPC] - Port size (32) does not match connection size (24) for port 'data'. The port definition is at: ./../../rtl/feature_ram.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_feature_stor/right File: ./../../rtl/feature_ram.v
+# ** Warning: (vsim-3015) ./../../rtl/feature_point/feature_stor.v(116): [PCDPC] - Port size (32) does not match connection size (24) for port 'q'. The port definition is at: ./../../rtl/feature_ram.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_feature_stor/right File: ./../../rtl/feature_ram.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(67): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_10 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(67): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_10 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(74): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_15 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(74): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_15 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(81): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_20 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(81): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_20 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(88): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_25 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(88): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_25 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(95): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_30 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(95): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_30 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(102): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_35 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(102): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_35 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(109): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_40 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(109): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_40 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(116): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_45 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(116): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_45 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(123): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_50 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(123): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_50 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(130): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_55 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(130): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_55 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(137): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_60 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(137): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_60 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(144): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_65 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(144): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_65 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(151): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_70 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(151): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_70 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(158): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_75 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(158): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_75 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(165): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_80 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(165): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_80 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(172): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_85 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_l.v(172): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_left/phase_85 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(67): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_10 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(67): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_10 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(74): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_15 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(74): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_15 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(81): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_20 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(81): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_20 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(88): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_25 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(88): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_25 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(95): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_30 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(95): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_30 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(102): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_35 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(102): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_35 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(109): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_40 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(109): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_40 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(116): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_45 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(116): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_45 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(123): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_50 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(123): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_50 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(130): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_55 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(130): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_55 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(137): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_60 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(137): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_60 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(144): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_65 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(144): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_65 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(151): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_70 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(151): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_70 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(158): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_75 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(158): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_75 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(165): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_80 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(165): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_80 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(172): [PCDPC] - Port size (12) does not match connection size (24) for port 'x'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_85 File: ./../../rtl/rho_cacl/rho_cacl.v
+# ** Warning: (vsim-3015) ./../../rtl/rho_cacl/rho_para_r.v(172): [PCDPC] - Port size (12) does not match connection size (24) for port 'y'. The port definition is at: ./../../rtl/rho_cacl/rho_cacl.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/u_top/u_rho_para_right/phase_85 File: ./../../rtl/rho_cacl/rho_cacl.v
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: top_tb.u_top.u_feature_stor.left.altsyncram_component
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: top_tb.u_top.u_feature_stor.right.altsyncram_component
+# ** Note: $stop    : ./../top_tb.v(126)
+#    Time: 17 ms  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at ./../top_tb.v line 126
