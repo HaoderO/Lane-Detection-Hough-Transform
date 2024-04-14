@@ -2,12 +2,12 @@ clc;
 close all;
 clear all;
 
-pre_img = imread('lane3.jpg');    
+pre_img = imread('lane1.jpg');    
 
 [v,h,N] = size(pre_img); 
 RGB_ij = uint64(zeros(v,h));
 
-fid = fopen('pre_img.txt','w');
+fid = fopen('pre_img1.txt','w');
 for i = 1:v
     for j = 1:h
         R = double(pre_img(i,j,1));
